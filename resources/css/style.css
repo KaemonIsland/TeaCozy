@@ -1,43 +1,47 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: Black;
-  opacity: 0.9;
+}
+body{
+  font-size: 22px;
   text-align: center;
-  box-sizing: border-box;
+  font-family: Helvetica;
+  opacity: 0.9;
 }
 /* Navigation */
 header {
   position: fixed;
-  padding: 1.6rem 0;
+  height: 69px;
   border-bottom: 1px solid seashell;
   top: 0;
   width: 100%;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 a {
   text-decoration: underline;
-  margin: 0 .45rem;
+  margin: 0 10px
 }
 .logo {
-  height: 2.27rem;
-  margin-left: .45rem;
+  height: 50px;
+  margin-left: 10px;
 }
-/* Main Content */
+/* Our Mission Content */
 .mission {
-  margin-top: 5.5rem;
+  margin-top: 70px;
   background-image: url("../images/img-mission-background.jpg");
-  background-size: 54.54rem 31.81rem;
   background-repeat: no-repeat;
   background-position: center;
-  height: 31.81rem;
-  width: 54.54rems;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.picheader {
+  width: 1200px;
+  padding: 10px 0;
 }
