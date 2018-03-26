@@ -14,7 +14,7 @@ body{
 /* Navigation */
 header {
   position: fixed;
-  height: 69px;
+  height: 70px;
   border-bottom: 1px solid seashell;
   top: 0;
   width: 100%;
@@ -26,7 +26,7 @@ header {
 }
 a {
   text-decoration: underline;
-  margin: 0 10px
+  margin: 0 10px;
 }
 .logo {
   height: 50px;
@@ -48,7 +48,7 @@ a {
   background-color: Black;
 }
 /* Tea of the Month */
-.section2 {
+.monthtea {
   width: 1000px;
   margin: 0 auto;
 }
@@ -62,11 +62,15 @@ a {
 margin: 25px 15px 10px 15px;
 }
 /* Locations */
-.section3 {
+.teacozy {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
   margin: 60px auto 0 auto;
+}
+#location {
+  position: relative;
+  top: 115px;
 }
 .location {
   height: 500px;
@@ -75,9 +79,9 @@ margin: 25px 15px 10px 15px;
   align-items: center;
 }
 .address {
-  width: 280px;
-  padding: 10px 5px;
-  margin: 10px 20px;
+  width: 300px;
+  padding: 10px;
+  margin: 15px 20px;
   opacity: 1;
   display: flex;
   flex-direction: column;
@@ -86,10 +90,6 @@ margin: 25px 15px 10px 15px;
 }
 p{
   margin: 20px 0;
-}
-#location {
-  position: relative;
-  top: 100px;
 }
 /* Footer */
 footer {
